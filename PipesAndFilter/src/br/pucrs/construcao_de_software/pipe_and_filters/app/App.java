@@ -13,10 +13,9 @@ public class App {
     public static void main(String args[]) {
 
         map = new HashMap<>();
-        fileName = Arquivo.lerNomeArq();
+        fileName = Arquivo.lerNomeArquivo();
 
         Arquivo.lerArquivo(fileName, map);
-
         Arquivo.salvarSaida(fileName, map);
 
     }

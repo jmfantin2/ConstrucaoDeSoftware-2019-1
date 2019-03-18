@@ -6,7 +6,7 @@ public class LoggerSingleton {
 
     private static Logger logger;
 
-    public LoggerSingleton() {
+    private LoggerSingleton() {
     }
 
     public static synchronized Logger getInstance() {
