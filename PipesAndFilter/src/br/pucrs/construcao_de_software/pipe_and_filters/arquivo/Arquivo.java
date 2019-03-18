@@ -68,7 +68,7 @@ public class Arquivo {
 
     public static void salvarSaida(String nomeArquivo, HashMap<String, ArrayList<Integer>> mapaPalavras) {
 
-        LOGGER.log(Level.INFO, String.format("Tentando realizar abertura do arquivo : %s", nomeArquivo));
+        LOGGER.log(Level.INFO, "Tentando salvar aquivo em disco");
         try (Writer writer = new BufferedWriter(
                 new OutputStreamWriter(new FileOutputStream(nomeArquivo + "-xref.txt"), "utf-8"))) {
 
