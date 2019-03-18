@@ -9,4 +9,4 @@ Jean Bainha
 
 JM Fantin 
 
-Vinícius Franz Kroth 
+Vinícius Frantz Kroth 
