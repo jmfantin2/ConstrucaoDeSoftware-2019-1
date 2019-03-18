@@ -7,16 +7,16 @@ import java.util.HashMap;
 
 public class App {
 
-    private static String fileName;
-    private static HashMap<String, ArrayList<Integer>> map;
+    private static String nomeArquivo;
+    private static HashMap<String, ArrayList<Integer>> mapaPalavras;
 
     public static void main(String args[]) {
 
-        map = new HashMap<>();
-        fileName = Arquivo.lerNomeArquivo();
+        mapaPalavras = new HashMap<>();
+        nomeArquivo = Arquivo.lerNomeArquivo();
 
-        Arquivo.lerArquivo(fileName, map);
-        Arquivo.salvarSaida(fileName, map);
+        Arquivo.lerArquivo(nomeArquivo, mapaPalavras);
+        Arquivo.salvarSaida(nomeArquivo, mapaPalavras);
 
     }
 
